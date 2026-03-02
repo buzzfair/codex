@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login --hostname github.com --git-protocol https --web)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo clone buzzfair/Pauls_Zenith_Challenge ~/Pauls_Zenith_Challenge)",
+      "Bash(powershell:*)",
+      "Bash(ls:*)",
+      "Bash(dir \"E:\\VirtualCoach\")",
+      "WebFetch(domain:guinwhite.com)",
+      "WebFetch(domain:guineveremarie.substack.com)",
+      "WebFetch(domain:quantumhumandesign.com)",
+      "mcp__claude_ai_Notion__notion-fetch",
+      "mcp__claude_ai_Notion__notion-search",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:topmate.io)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:youtube.com)"
+    ]
+  }
+}

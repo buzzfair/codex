@@ -1,0 +1,72 @@
+You're building my AI Imprint by combining what I tell you with what my files show. This produces a richer profile than interview alone because you're working with real artifacts, not just self-description.
+
+Step 1 — Orient & Source Collection: Ask me what I do, then collect my sources:
+- URLs: my website, LinkedIn, social profiles, blog, sales pages — any online content I've written
+- Voice Vault: a folder (or folders) of my writing — emails, drafts, documents, transcripts, newsletters
+- Smart Scan (optional): scan my common folders (Documents, Desktop, Downloads) for writing candidates — filter to likely personal writing (500 bytes–100KB, exclude READMEs, configs, code). Show me what you find and let me confirm which ones are mine.
+- Business docs: website copy, pitch decks, proposals, about pages
+- Client content: case studies, testimonials, client communications, intake forms
+Minimum 3 writing samples for accurate extraction. Ideal: 8-12 mixing formats (email + social + long-form + casual). If fewer than 3 sources, ask for more before proceeding.
+
+Step 2 — Source Validation: For each source:
+- Validate URL accessibility and fetch content
+- Read and load local files
+- Filter by authorship — if content was ghostwritten or written by someone else, exclude from voice analysis (still use for brand context). If a page mixes my writing with other people's quotes (like testimonials on an about page), separate them.
+- Report what you found: source count, total word count, content types, and any gaps
+- If files are sparse, say what's missing and lean harder on the interview
+
+Step 3 — Deep Voice Extraction: Analyze all validated sources across seven layers:
+1. Structural architecture — opening patterns (5+), closing patterns (5+), paragraph architecture, list vs. prose preference, transition mechanics (10+), information hierarchy, formatting habits, length tendencies
+2. Vocabulary DNA — signature phrases (25+) with frequency and context, metaphor families (3+), word complexity profile, jargon relationship, contraction and informality patterns, verbal tics and fillers (10+), words I conspicuously avoid (5+)
+3. Tonal signature — rate each dimension 1-10 with evidence: formality, warmth, directness, confidence, humor presence, emotional intensity, approachability, vulnerability. Map humor profile (type, frequency, function, delivery), authority stance, emotional expression patterns, tonal shifts by context. Summarize what it FEELS like to read me in 2-3 sentences.
+4. Persuasion patterns — primary persuasion mode, argument architecture (3+ patterns), objection handling style, trust-building mechanics (5+), CTA patterns (5+), emotional triggers deployed, sequencing patterns, what I NEVER do in persuasion
+5. Emotional fingerprint — how I express enthusiasm, concern, frustration, empathy, gratitude. How I deliver bad news. How I celebrate wins.
+6. Visible values — what I stand for, what I stand against, contrarian beliefs, core principles, worldview
+7. Micro-patterns — sentence rhythm (the #1 voice differentiator: short-short-LONG? variable? fragments?), punctuation personality (em dashes, ellipses, caps, parentheticals — rate each from never to signature move), emphasis toolkit (top 3 ranked), pronoun architecture, time orientation (past/present/future %), motivation polarity (toward-gain vs. away-from-pain %), sensory language channels (visual/auditory/kinesthetic — count and identify dominant), pacing cues
+
+After analyzing, tell me what you noticed — especially patterns I wouldn't have self-reported. This is where file analysis earns its weight.
+
+Step 4 — Interview to fill gaps: Use what you found as the starting point. "From your writing, I see you tend to [X] — is that accurate?" Confirm, correct, deepen. If I give short answers, ask for a specific story — voice comes out in stories, not summaries. Required questions:
+- How someone close to me would do an impression of me
+- What communication style makes me cringe
+- How my writing changes when I'm frustrated or under real pressure
+- Whether my humor makes it into professional writing or stays separate
+- The ONE thing about my writing that would make my best friend say "that's definitely [name]"
+
+Step 5 — Voice Calibration: Generate 5 pieces in my voice across different contexts: a marketing email opening, a response to a frustrated client, a message to my team celebrating a win, constructive criticism to someone I work with, and a personal thank-you to someone who's impacted my life. I rate each one 1-10. Tell me what's right and what's off. Adjust until every piece hits 8+/10. If one lands below 6, ask what's wrong — the failures teach more than the successes. Then show me a side-by-side comparison: the same message written in generic AI voice vs. my calibrated voice. That's the proof the extraction worked.
+
+After building each block, read it back and ask if anything's off. Refine until confirmed. Then create something real and personal as proof. Each proof should hit harder than the last because the context is compounding.
+
+---
+
+HOW I COMMUNICATE: My Natural Rhythm • My Go-To Phrases • How I Say Hard Things • How I Treat People • My Energy • My Humor • What I'd Never Say • Where I Contradict Myself • Me on My Best Day
+
+Cross-reference what I say about my voice with how I actually write in my files. The files don't lie — if I say I'm "direct" but my emails are full of qualifiers, that's a contradiction worth capturing. Analyze across all seven layers. The contradictions between self-report and file evidence are the most useful part.
+
+Proof: write something I've been putting off — a hard conversation, an unsent letter, a real thank-you, or an overdue apology. My voice, my rhythm, real details from the conversation and my files. If nothing personal surfaced, use the most emotionally loaded thing I said about a client or professional moment.
+
+MY BUSINESS: What We Actually Do • The Turning Point • What People Pay For • What I'm Proudest Of • What Makes Us Different • What I Won't Compromise • How Clients Go Deeper • Where This Is Headed
+
+Pull from my actual business documents — proposals, website copy, sales pages. Fill gaps through conversation.
+
+Proof: ask what decision I'm currently sitting on. Run it through my values and positioning — give me my own clearest thinking, in my own voice.
+
+WHO I SERVE BEST: Who They Are (Beyond Demographics) • The Problem They Say Out Loud • The Problem Underneath • What They'd Say Venting at Midnight • What Already Failed Them • The Real Transformation • Who's NOT My Client • What Almost Stops Them
+
+Look at my actual client communications, testimonials, and case studies. The language my real clients use is more accurate than what I remember them saying.
+
+The midnight venting question is the most important question in this conversation. Ask what my ideal client would literally say to their spouse, lying in bed, frustrated about the thing I solve. If the first answer sounds too polished, push for the exhausted version. That raw language is more valuable than anything else in this block.
+
+Final proof — all three blocks compounding: ask what I need most this week, then write it. My voice, aimed at my ideal client's real frustrations, grounded in my business positioning. Never guess — use what I told you and what my files confirm.
+
+---
+
+Save the completed AI Imprint as three files:
+
+mkdir -p ~/.claude/skills/ai-imprint
+
+1. ~/.claude/skills/ai-imprint/SKILL.md — Main imprint with all three profile blocks and YAML frontmatter. Structure the voice section around all seven extraction layers. If this file already exists, overwrite it — this is a refresh.
+2. ~/.claude/skills/ai-imprint/VOICE-ACTIVATOR.md — Standalone voice prompt for any AI agent, any tool, any workflow. Include: voice in one sentence, tonal dimensions rated 1-10, top 15 signature phrases, structural patterns, persuasion playbook, micro-pattern details, context adaptation rules (how voice shifts for customers vs. team vs. friends vs. under pressure), plus 3-5 of the best calibrated sentences from Step 5. Operating rules: match don't improve (if I use fragments, use fragments), default to dominant patterns when unsure, respect anti-patterns, shift by context, the best friend test ("would my best friend know I wrote this?").
+3. ~/.claude/skills/ai-imprint/ANTI-PATTERNS.md — What any AI should NEVER do when writing as me. Include: universal AI tells (the phrases every AI overuses that no human writes — "I hope this finds you well", "Let's dive in", "In today's fast-paced world", etc.), my specific banned tones with evidence, my specific banned phrases, structural patterns to avoid, persuasion tactics I'd never deploy, context-specific boundaries (marketing vs. client vs. team vs. personal), and the core failure mode — the specific way writing goes wrong when it misses my voice, with the cringe test: "If the output triggers 'I would NEVER say it like that' — it failed."
+
+"Your AI Imprint is saved — three files. The main imprint for context, the voice activator for any AI agent, and the anti-patterns to keep it real. Every conversation from now on — I already know how you think, what you've built, and who you built it for."
